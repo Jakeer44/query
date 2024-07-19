@@ -1,0 +1,62 @@
+#hero {
+    height: 400px;
+    width: 1240px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1 {
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    color: white;
+}
+
+
+.box2 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(131, 2, 186);
+    color: white;
+}
+
+.box3 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(193, 9, 95);
+    color: white;
+}
+
+.box4 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(58, 205, 13);
+    color: white;
+}
+
+@media (min-width: 687px) {
+    .box1 {
+        background-color: yellowgreen;
+        font-size: 4rem;
+        color: black;
+    }
+
+    .box2 {
+        background-color: greenyellow;
+    }
+}
+
+@media (min-width: 870px) {
+    .box3 {
+        background-color: aquamarine;
+        font-size: 3rem;
+        color: brown;
+    }
+
+.box4 {
+    background-color: antiquewhite;
+    font-size: 3rem;
+    color: beige;
+}
+}
